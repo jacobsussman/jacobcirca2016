@@ -19,6 +19,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	
 }
+html{
+	height:100%;
+}
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -26,8 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-		line-height: 1;
-
+	line-height: 1;
+	width: 100%;
+    height: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -51,8 +55,8 @@ a {
 
 body {
 	font-family: "Helvetica Neue", "Helvetica", sans-serif;
-	background-color: #fbf8e7;
-	color: #3e2674;
+	background-color: white;
+	color: black;
 
 	
 	
@@ -93,20 +97,15 @@ body {
 }
 
 #titlepage button {
-	font-size: 	1.875em;
-	font-weight: 600;
-	background-color: #3e2674;
-	color:white;
-	margin: auto;
-	text-align: center;
-	align-content: center;
-	padding: 15px;
+background:none;
+  border:none;
+  font-size:1em;
+  color:white;
+	
 	
 }
 #titlepage a {
-	margin: auto;
-	align-content: center;
-	background-color: rgb(255,0,0);
+	
 }
 
 
@@ -137,4 +136,93 @@ body {
 	color:#fbf8e7;
 	background-color:#fbf8e7;
 	
+}
+.blackBack
+{
+	background-color:black;
+	color: white;
+}
+#titlepage {
+	height:100%;
+}
+
+#titlepage p {
+	text-align: center;
+	margin-top: 20px;
+	font-weight:500;
+	font-size: 1.5em;
+	
+}
+
+.flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:100%;
+}
+
+.slideDown {
+	display:none;
+	position: absolute;
+	float:right;
+	width:100%;
+	text-align: center;
+	left:350px;
+}
+
+.100 {
+	height:100%;
+	width:100%;
+}
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  width: 200px;
+  background: #fff;
+  border: 1px solid #29d;
+
+  overflow: hidden;
+}
+
+.pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+
+  max-width: 200px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: #29d;
+}
+
+.pace.pace-inactive {
+  display: none;
 }
