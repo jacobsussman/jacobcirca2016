@@ -70,15 +70,15 @@ $(document).ready(function () {
 	
 		
 	});
+	$( ".ani4" ).click(function() {
+		
+		$(".fullScreen").css("visibility","visible");
+	
+		
+	});
 	
 	
-	
-	
-//	
-//	$( ".ani1" ).hover( function() {
-//		TweenLite.to($(this), 1, {margin-left:800});
-//	});
-//	
+
 
 	$( ".fontRed" ).hover(function() {
 		$( this ).css("text-decoration", "underline");
@@ -99,30 +99,33 @@ $(document).ready(function () {
 	
 	
 	
+//	
+//	(function makeDiv(){
+//    var divsize = ((Math.random()*100) + 50).toFixed();
+//    var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
+//    $newdiv = $('<div/>').css({
+//        'width':divsize+'px',
+//        'height':divsize+'px',
+//        'background-color': color
+//    });
+//    
+//    var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
+//    var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
+//    
+//    $newdiv.css({
+//        'position':'absolute',
+//        'left':posx+'px',
+//        'top':posy+'px',
+//        'display':'none'
+//    }).appendTo( 'body' ).fadeIn(100).delay(300).fadeOut(200, function(){
+//       $(this).remove();
+//       makeDiv(); 
+//    }); 
+//})
+//	();
+//
+//	
 	
-	
-	
-	
-	
-//	$( ".ani1" ).hover(function() {
-//    	$( this ).css("color", "#fae003");
-//	}, function() {
-//    $( this ).css("color", "#ea272d");
-//	});
-
-
-			
-//$( ".ani1" ).click(function() {
-//	$( "none1" ).slideUp(200);
-//	$( "none2" ).delay(200).slideDown(200);
-//	$( "none3" ).delay(400).slideUp(200);
-//});
-//		var music = window.open("pages/music.html", "", "width=10, height=10");
-//		var page1 = window.open("pages/black.html", "",  "width='+w', height='+h'");
-//		var page2 = window.open("pages/black.html", "", "width=500, height=500");
-//		var page3 = window.open("pages/black.html", "", "width=500, height=500");
-//		var page4 = window.open("pages/black.html", "", "width=500, height=500");
-//		music.focus();
 	
 
 });
