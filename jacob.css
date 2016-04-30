@@ -34,7 +34,7 @@ body {
     height: 100%;
 	background-color:black;
 	color:white;
-	font-family: "Avenir Next", "Helvetica Neue", "Helvetica", sans-serif;
+	font-family: "Cooper Hewitt", "Avenir Next", "Helvetica Neue", "Helvetica", sans-serif;
 	font-weight: 600;
 
 
@@ -111,9 +111,9 @@ a {
 
 #page1 .begin {
 	font-size: 6em;
-	margin-left:100px;
+	margin-left:200px;
 	font-weight:700;
-	bottom:150px;
+	bottom:75px;
 	opacity:0.7;
 	z-index: -1;
 }
@@ -311,8 +311,8 @@ p {
 }
 
 .pxlH4 {
-	top:20%;
-	right:8%;
+	bottom:15  %;
+	right:3%;
 	z-index: -1;
 }
 
@@ -415,7 +415,7 @@ p {
 	
 }
 
-.purpleBack {
+.backPurple {
 	background-color: #5C3ECA;
 }
 
@@ -840,7 +840,236 @@ top:30%;
 #page4 p {
     font-size: 4em;
     max-width: 1700px;
-    padding:30px;
+    padding:40px;
+    left:100%;
+    color:white;
+    }
+
+
+.hyp1 {
+    top:30%;
     left:100%;
 }
 
+.hyp2 {
+    top:10%;
+    left:100%;
+}
+
+#page4 .img1 {
+    left:100%;
+    top:30%;
+}
+
+#page4 .img2 {
+      left:100%;
+    top:30%;
+}
+
+#page4 .img3 {
+    left:100%;
+    top:40%;
+}
+
+.sen32 {
+    bottom:60%;
+}
+
+#page4 .img4 {
+     left:100%;
+    top:10%;
+}
+
+#page5 p {
+    
+    font-size: 4em;
+    
+}
+
+.center {
+    margin:auto;
+        text-align: center;
+
+}
+
+.p1 {
+    max-width:30%;
+    text-align: center;
+}
+
+#page5 .img1 {
+    top:100%;
+    left:10%;
+    max-width:20%;
+}
+
+#page5 .img2 {
+    
+     top:100%;
+    right:10%;
+        max-width:20%;
+
+}
+
+#page5 .img3 {
+        max-width: 30%;
+    left:12%;
+        top:200;
+    z-index:-1;
+
+
+}
+
+#page5 .img4 {
+    max-width: 30%;
+    right:22%;
+    top:8%;
+        z-index:-1;
+
+    
+}
+
+.backPurple {
+    background
+}
+
+.max800 {
+    max-width: 800px;
+    
+}
+
+#parents h1 {
+    font-size: 5em;
+	top:30%;
+	left:5%;
+    
+}
+
+#parents h2 {
+    font-size: 14em;
+    top:30%;
+	left:35%;
+    
+}
+
+#parents h3 {
+    left:25%;
+	font-size: 7.25em;
+    top: 45%;
+    
+}
+
+#parents h4 {
+    left:45%;
+	font-size: 14em;
+    top: 42%;   
+}
+
+#parents h5 {
+    left:17%;
+	font-size: 7em;
+    top: 53%;  
+}
+
+.max1000 {
+    max-width: 1000;
+}
+
+#hate p {
+    font-size: 4em;
+    z-index: 3;
+    padding-top:25px;
+}
+
+.padding125 {
+    padding-top:100px;
+}
+
+#hate .img {
+    width:50%;
+    top:25%;
+    left:25%;
+    
+}
+
+.max900 {
+    max-width: 900px;
+}
+
+.dazed {
+    top:100%;
+    z-index:1;
+}
+
+.z3 {
+    z-index: 3;
+}
+
+.hate {
+    right:10%;
+}
+
+.per1 {
+    width:12%;
+    left:15%;
+    top:10%;
+}
+
+.per2 {
+    width:8%;
+    bottom:0%;
+    left:30%;
+}
+
+.per3 {
+    width:6%;
+    bottom:17%;
+    left:42%;
+}
+
+.per4 {
+    width:12%;
+    left:48%;
+    bottom:20%;
+    
+}
+
+.per5 {
+    width:8%;
+    left:59%;
+    top:10%;
+}
+
+.per6 {
+    left:59%;
+    width:7%;
+    bottom:19%;
+}
+
+.per7 {
+    width:4%;
+    left:72%;
+    top:12%;
+}
+
+.per8 {
+    width:8%;
+    bottom:23%;
+    left:79%;
+    
+}
+
+#person h1 {
+    font-weight: 600;
+	font-size: 7em;
+	margin: auto;
+    color:#949494;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.relate {
+    right:5%;
+    top:61%;
+}

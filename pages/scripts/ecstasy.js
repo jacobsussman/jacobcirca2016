@@ -26,7 +26,7 @@ $(document).ready(function () {
 			setTimeout(function(){ $( "h3" ).css("visibility", "hidden"); }, 2150);
 			setTimeout(function(){ $( "p" ).css("visibility", "hidden"); }, 2150);
 
-				setTimeout(function(){ window.open("2.html", "",  "width='+w', height='+h'"); }, 2250);
+				setTimeout(function(){ location.assign("2.html"); }, 2250);
 //		setTimeout(function(){ location.assign("because.html"); }, 2250);
 
 

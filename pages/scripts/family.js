@@ -14,7 +14,7 @@ $(document).ready(function () {
     setTimeout(function(){  $(".fam3").velocity({scale: "3,3",}, {duration: 700,}); }, 550);
 
 
-		setTimeout(function(){ window.open("3.html", "",  "width='+w', height='+h'"); }, 1800);
+		setTimeout(function(){ location.assign("3.html"); }, 1800);
 
 	
 //
