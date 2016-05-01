@@ -88,7 +88,7 @@ $(document).ready(function () {
         setTimeout(function(){ location.assign("family.html");}, 805);
 		
 	});
-$( ".ani6" ).click(function() {
+    $( ".ani6" ).click(function() {
       
         setTimeout(function(){$(".frown1").css("visibility","visible");}, 100);
 		setTimeout(function(){$(".frown2").css("visibility","visible");}, 190);
@@ -123,7 +123,7 @@ $( ".ani6" ).click(function() {
 	});
      $( ".ani8" ).click(function() {
       
-        location.assign("good.html"); 
+        location.assign("mirror.html"); 
 		
 	});
      $( ".ani9" ).click(function() {
@@ -164,15 +164,19 @@ $( ".ani6" ).click(function() {
 		
 	});
     $( ".ani24" ).click(function() {
-        setTimeout(function(){ $(".dazed").velocity({ top: 300},  {duration: 4500} ); }, 0);
-        setTimeout(function(){ $(".dazed").css("visibility","hidden"); }, 14000);
+        var vid = document.getElementById("dazed"); 
+        vid.play();
+        setTimeout(function(){ $("#dazed").velocity({ top: 300},  {duration: 4500} ); }, 0);
+        setTimeout(function(){ $("#dazed").css("visibility","hidden"); }, 14000);
+        setTimeout(function(){location.assign("62.html");}, 8805);
+
 
 		
 	});
     $( ".ani25" ).click(function() {
       
 //		scream.play();
-        setTimeout(function(){location.assign("8.html");}, 805);
+        setTimeout(function(){location.assign("8.html");}, 0);
 
 		
 	});
@@ -180,6 +184,8 @@ $( ".ani6" ).click(function() {
     $( ".ani26" ).click(function() {
         
         setTimeout(function(){$(".hate").css("visibility","visible");}, 0);
+                setTimeout(function(){location.assign("hell.html");}, 2000);
+
 //        setTimeout(function(){$(".nah").css("visibility","visible");}, 0);
 //        setTimeout(function(){$(".q1").css("text-decoration","line-through");}, 0);
 
@@ -187,41 +193,99 @@ $( ".ani6" ).click(function() {
 	});
     $( ".ani27" ).click(function() {
       
-//		scream.play();
-        setTimeout(function(){location.assign("person.html");}, 805);
+        setTimeout(function(){location.assign("person.html");}, 0);
 
 		
 	});
-     $( "
-
-     $( ".ani29" ).click(function() {
+     $( ".ani28" ).click(function() {
       
-//		scream.play();
-        setTimeout(function(){location.assign("9.html");}, 805);
+        setTimeout(function(){location.assign("capital.html");}, 0);
+
+		
+	});
+   
+
+    $( ".ani29" ).click(function() {
+      
+        setTimeout(function(){location.assign("9.html");}, 0);
+
+		
+	});
+    $( ".ani30" ).click(function() {
+      
+//        setTimeout(function(){$(".type1").css("visibility","visible");}, 100);
+//         setTimeout(function(){$(".type1").css("visibility","visible");}, 480);
+        setTimeout(function(){$(".type3").css("visibility","visible");}, 280);
+		setTimeout(function(){$(".type2").css("visibility","visible");}, 190);
+        setTimeout(function(){ $( ".type1" ).velocity({
+    scale: 3, translateY:-150},  1500 ); }, 750);
+        setTimeout(function(){ $( ".type2" ).velocity({
+    scale: 3, translateY:-150, translateX:-75},  1200 ); }, 850);
+        setTimeout(function(){ $( ".type2" ).velocity({
+    scale: 0.3, translateY:-150 },  1500 ); }, 2051);
+        setTimeout(function(){ $( ".type2" ).velocity({
+    scale: 3, translateY:-150},  1200 ); }, 2251);
+          setTimeout(function(){ $( ".type1" ).velocity({
+    scale: 0.3, translateY:-150},  1500 ); }, 750);
+        setTimeout(function(){ $( ".type3" ).velocity({
+    scale: 3, translateY:-150, translateX:-75},  1200 ); }, 850);
+        setTimeout(function(){ $( ".type3" ).velocity({
+    scale: 0.3, translateY:-150 },  1500 ); }, 2051);
+        setTimeout(function(){ $( ".type3").velocity({
+    scale: 3, translateY:-150},  1200 ); }, 2251);
+		
+	});
+    $( ".ani31" ).click(function() {
+      
+        setTimeout(function(){location.assign("debt.html");}, 0);
+
+		
+	});
+    $( ".ani32" ).click(function() {
+      
+        setTimeout(function(){location.assign("debt.html");}, 0);
 
 		
 	});
      $( ".ani33" ).click(function() {
       
-//		scream.play();
-        setTimeout(function(){location.assign("10.html");}, 805);
+        setTimeout(function(){location.assign("10.html");}, 0);
 
 		
 	});
       $( ".ani37" ).click(function() {
       
-//		scream.play();
-        setTimeout(function(){location.assign("11.html");}, 805);
+        setTimeout(function(){location.assign("11.html");}, 0);
 
 		
 	});
        $( ".ani41" ).click(function() {
       
 //		scream.play();
-        setTimeout(function(){location.assign("12.html");}, 805);
+           location.assign("wasitnah.html");
+		
+	});
+        $( ".ani42" ).click(function() {
+      
+//		scream.play();
+        location.assign("wasitnah.html");
 
 		
 	});
+        $( ".ani43" ).click(function() {
+      
+//		scream.play();
+        location.assign("wasitnah.html");
+
+		
+	});
+     $( ".ani44" ).click(function() {
+      
+        setTimeout(function(){$(".syr1").css("visibility","visible");}, 100);
+		setTimeout(function(){$(".syr2").css("visibility","visible");}, 190);
+		setTimeout(function(){$(".syr3").css("visibility","visible");}, 400);
+         
+     });
            $( ".ani45" ).click(function() {
       
 //		scream.play();
@@ -229,6 +293,9 @@ $( ".ani6" ).click(function() {
 
 		
 	});
+    
+    
+    
      $( ".ani49" ).click(function() {
       
 //		scream.play();
@@ -236,10 +303,6 @@ $( ".ani6" ).click(function() {
 
 		
 	});
-	
-	
-	
-
 
 	$( ".fontRed" ).hover(function() {
 		$( ".fontRed" ).css("text-decoration", "underline");
@@ -263,36 +326,8 @@ $( ".ani6" ).click(function() {
     	$( ".fontGrey" ).css("text-decoration", "none");
 	});
 	
-	
-	
-//	
-//	(function makeDiv(){
-//    var divsize = ((Math.random()*100) + 50).toFixed();
-//    var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
-//    $newdiv = $('<div/>').css({
-//        'width':divsize+'px',
-//        'height':divsize+'px',
-//        'background-color': color
-//    });
-//    
-//    var posx = (Math.random() * ($(document).width() - divsize)).toFixed();
-//    var posy = (Math.random() * ($(document).height() - divsize)).toFixed();
-//    
-//    $newdiv.css({
-//        'position':'absolute',
-//        'left':posx+'px',
-//        'top':posy+'px',
-//        'display':'none'
-//    }).appendTo( 'body' ).fadeIn(100).delay(300).fadeOut(200, function(){
-//       $(this).remove();
-//       makeDiv(); 
-//    }); 
-//})
-//	();
-//
-//	
-	
+});
 	
 
-});
+
 

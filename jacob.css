@@ -35,7 +35,7 @@ body {
 	background-color:black;
 	color:white;
 	font-family: "Cooper Hewitt", "Avenir Next", "Helvetica Neue", "Helvetica", sans-serif;
-	font-weight: 600;
+	font-weight: 200;
 
 
 }
@@ -91,7 +91,7 @@ a {
 
 #page1
 {
-	font-weight: 600;
+	font-weight: 200;
 	font-size: 4em;
 	margin: auto;
 	text-align: left;
@@ -277,8 +277,8 @@ p {
 #titlepage h4 {
 	font-size:4em;
 	margin-left:10%;
-	line-height: 125%;
-	font-weight: 600;
+	line-height: 150%;
+	font-weight: 200;
 }
 
 .musicWarning {
@@ -366,7 +366,7 @@ p {
 .fire3 {
 
 	top:60%;
-	left:25%;
+	left:40%;
 	z-index: -1;
 
 }
@@ -589,18 +589,18 @@ h3 {
 
 #page2 .q2 {
     right:5%;
-    top:68%;
+    top:58%;
     
 }
 
 #page2 .q1 {
     
     right:5%;
-    top:40%;
+    top:30%;
 }
 
 #page2 .q3 {
-        top:85%;
+        top:75%;
         left:8%;
 
 
@@ -652,7 +652,7 @@ h3 {
 }
 
 .q6 {
-     top:75%;
+     top:69%;
         left:8%;
 }
 
@@ -888,7 +888,7 @@ top:30%;
 
 .center {
     margin:auto;
-        text-align: center;
+    text-align: center;
 
 }
 
@@ -1070,6 +1070,240 @@ top:30%;
 }
 
 .relate {
+    right:0%;
+    top:66%;
+}
+
+.ani30 {
     right:5%;
-    top:61%;
+    top:30%;
+}
+
+.ani31 {
+    right:22%;
+    top:72%;
+}
+
+.ani32 {
+    top:80%;
+        left:8%;
+}
+
+.type1 {
+    top:5%;
+    left:10%;
+    
+    
+}
+
+.type2 {
+    right:5%;
+    bottom:10%;
+}
+
+.ani24 {
+     top:75%;
+        left:8%;
+}
+
+.ani22 {
+    right:5%;
+    top:58%;
+}
+
+.ani23 {
+    right:5%;
+    top:30%;
+}
+
+#haha {
+    font-size: 14em;
+    top:15%;
+   
+}
+
+.shadow {
+    z-index:-1;
+    
+}
+
+#debt h1 {
+    font-size: 6em;
+
+    
+}
+
+.run1 {
+    top:40%;
+    left:100%;
+}
+
+#noose {
+    width:40%;
+    
+}
+
+.hell {
+    left:25%;
+	font-size: 12.25em;
+    top: 45%;
+    font-weight: 400;
+}
+
+.anymore {
+    left:69%;
+	font-size: 7em;
+    top: 63%;
+}
+
+.feel {
+    font-size: 14em;
+    top:30%;
+	left:45%;
+}
+
+.friend {
+    font-size: 5em;
+	top:25%;
+	left:15%;
+}
+
+.alone {
+    font-size: 8em;
+    top:30%;
+	left:25%;
+}
+
+.andY {
+    left:25%;
+	font-size: 12.25em;
+    top: 45%;
+    font-weight: 400;
+}
+
+.avoided {
+     left:33%;
+	font-size: 14em;
+    top: 53%;
+}
+
+.her {
+     left:69%;
+	font-size: 7em;
+    top: 72%;
+}
+
+.alone2 {
+    font-size: 16em;
+    top:30%;
+	left:49%;
+    font-weight: 400;
+    
+}
+
+.cross {
+    text-decoration: line-through;
+}
+
+.ani26 {
+    right:5%;
+    top:40%;
+}
+
+.ani28 {
+     top:85%;
+        left:8%;
+}
+
+.max1100 {
+    max-width: 1100px;
+}
+
+.max1300 {
+    max-width: 1300;
+}
+
+#spring h1 {
+    font-size: 18em;
+    z-index: 3;
+    font-weight:600;
+    line-height: 110%
+    
+}
+
+.ani42 {
+    right:5%;
+    top:11%;
+}
+
+.ani43 {
+     right:10%;
+    top:48%;
+}
+
+.ani44 {
+    top:72%;
+        left:31%;
+}
+
+.syr1 {
+    z-index: -3;
+    left:70%;
+    top:60%;
+}
+
+.syr2 {
+    z-index: -2;
+    left:55%;
+    top:14%;
+    
+
+}
+
+.syr3 {
+     z-index: -1;
+    left:5%;
+    top:60%;
+
+}
+
+.grown {
+    font-size:7em;
+    font-weight: 200;
+/*    right:100px;*/
+    top:200px;
+    line-height: 130%;
+}
+
+.max2000 {
+    max-width: 2000;
+}
+
+#wasitnah p {
+    font-size:5em;
+    
+}
+
+.ani50 {
+    font-size: 6em;
+    top:32%;
+    font-weight: 300;
+    font-style: italic;
+    right:52%;
+}
+
+.ani51 {
+    font-size: 3em;
+    top:50%;
+    left:50%;
+    line-height: 155%;
+}
+
+.type3 {
+    left:25%;
+    top:60%;
+}
+
+.purpleBack {
+    background-color: #5C3ECA;
 }
